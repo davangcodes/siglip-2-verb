@@ -17,7 +17,7 @@ import torch.backends.cudnn as cudnn
 import cv2
 
 # ✅ Initialize Weights & Biases for experiment tracking
-wandb.login(key="a8832575b3abf5340a76141f84f38cb6c1c19247")
+wandb.login(key="")
 wandb.init(project="siglip-verb-classification", name="siglip2-finetune-unfreeze-all")
 
 # ✅ Set device and enable fast training
